@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        .card{
+            background-color: rgb(169, 81, 252);
+            width: 350px;
+            height: 500px;
+        }
+        .heading{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+        }
+    button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+.text{
+    text-align:center;
+}
+button:hover{
+    background-color: peru;
+}
+
+    </style>
+</head>
+<body>
+    <table border="1">
+    <td>
+        <div class="card">
+            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231207165628/Full-Stack-Developer-Roadmap.webp"
+                width="350px">
+                <h1 class="heading">
+                    Full Stack Developer Roadmap
+                </h1>
+                <p class="text">
+                    A comprehensive roadmap for becoming a
+                    full stack developer, covering various
+                    technologies and skills required in
+                    both front-end and back-end development.
+                </p>
+                <ul class="card-list">
+                    <li>HTML/CSS</li>
+                    <li>JavaScript</li>
+                    <li>Node.js</li>
+                </ul>
+                <button class="card-button" onclick="toggleModal(2)">
+                    Read More...
+                </button>
+        </div>
+
+    </td>
+    <td>
+    <div class="card">
+        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230416201559/DevOps-Roadmap.webp" width="350px">
+            <h1 class="heading">
+                DevOps Developer
+            </h1>
+            <p class="text">
+                DevOps is a collection of two words,
+                “Development” and “Operations,”
+                representing a cultural approach that
+                emphasizes collaboration between
+                development and operations teams to
+                streamline the entire software
+                delivery lifecycle.
+            </p>
+            <ul>
+                <li>Continuous Integration (CI)</li>
+                <li>Continuous Deployment (CD)</li>
+                <li>Infrastructure as Code (IaC)</li>
+            </ul>
+            <button class="card-button" onclick="toggleModal(1)">
+                Read More...
+            </button>
+        </div>
+        </td>
+    <td>
+        <div class="card">
+            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240308154942/web-(1).jpg" 
+                 alt="Card image" width="350px" height="170px">
+    
+                <h1 class="heading">
+                    Web Development Trends
+                </h1>
+                <p class="text">
+                    Explore the latest trends in web development,
+                    including advancements in technologies,
+                    frameworks, and best practices shaping
+                    the future of web development.
+                </p>
+                <ul class="card-list">
+                    <li>Progressive Web Apps (PWAs)</li>
+                    <li>Serverless Architecture</li>
+                    <li>Single Page Applications (SPAs)</li>
+                </ul>
+                <button>
+                    Read More...
+                </button>
+            </div>
+    </td>
+    <td>
+    <div class="card">
+        <img src="https://t3.ftcdn.net/jpg/05/00/79/02/360_F_500790266_gaZS8kRQeZsUbD1zKOJJ8bjI0uwNLghi.jpg" width="350px"
+        height="170px">
+        <div class="card-content">
+            <h1 class="heading">
+                  Android Development 
+            </h1>
+            <p class="card-description">
+                Explore the latest trends in web development,
+                including advancements in technologies,
+                frameworks, and best practices shaping
+                the future of web development.
+            </p>
+            <ul class="card-list">
+                <li>Progressive Web Apps (PWAs)</li>
+                <li>Serverless Architecture</li>
+                <li>Single Page Applications (SPAs)</li>
+            </ul>
+            <button class="card-button" onclick="toggleModal(3)">
+                Read More...
+            </button>
+        </div>
+        </div>
+        </td>
+        <td>
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLyuganIM31FGgcQaLhRKhs_rg128Ppy3b6Q&s"
+                width="350px" height="150px">
+                <div class="card-content">
+                    <h1 class="heading">
+                        front end developer
+                    </h1>
+                    <p class="text">
+                        front end is a collection of two words,
+                        “Development” and “Operations,”
+                        representing a cultural approach that
+                        emphasizes collaboration between
+                        development and operations teams to
+                        streamline the entire software
+                        delivery lifecycle.
+                    </p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <button>
+                        Read More...
+                    </button>
+                </div>
+        </td>
+
+        </table>
+
+</body>
+</html>

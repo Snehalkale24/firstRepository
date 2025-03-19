@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+header {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.menu-item {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+}
+.menu-item:hover{
+    box-shadow: 0 0 1px 1px rgb(117, 108, 108);
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.details h2 {
+    margin: 20px ;
+    font-size: 20px;
+    color: #333;
+}
+
+
+.details p {
+    color: #666;
+    font-size: 15px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff4d4d;
+}
+
+</style>
+<body>
+    <div class="navbar">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfLa2X3zXtN8OjQ5uWn7XVJpAj3ZazuOsa4A&s" alt="" class="logo">
+        <div class="nav-links">
+    <a class="nav" href="index.html">Home</a>
+    <a class="nav"href="menu.html">menu</a>
+    <a class="nav"href="register.html">register</a>
+    <a class="nav"href="contact.html">contact</a>
+    </div>
+    </div>
+
+    <header>
+        <h1>Zomato Menu</h1>
+    </header>
+
+    <section class="menu">
+        <div class="menu-item">
+            <img src="https://ministryofcurry.com/wp-content/uploads/2024/06/chicken-biryani-5.jpg" alt="Dish 1" height="150px" width="150px">
+            <div class="details">
+                <h2>Chicken Biryani</h2>
+                <p>Delicious spiced rice with tender chicken.</p>
+                <span class="price"><i class="fa-solid fa-indian-rupee-sign"></i>300</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkTmoN6HX1YlataD_t0nUSL1Re6-zhsCPikQ&s" alt="Dish 1" height="150px" width="150px">
+         <div class="details">
+                <h2>Paneer Tikka</h2>
+                <p>Grilled cottage cheese with spices.</p>
+                <span class="price"><i class="fa-solid fa-indian-rupee-sign"></i>250</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://www.mysavoryadventures.com/wp-content/uploads/2023/04/restaurant-style-butter-chicken-768x1024.jpg" alt="Dish 1" height="150px" width="150px">
+
+            <div class="details">
+                <h2>Butter Chicken</h2>
+                <p>Creamy tomato-based curry with chicken.</p>
+                <span class="price"><i class="fa-solid fa-indian-rupee-sign"></i>350</span>
+            </div>
+        </div>
+        <div class="menu-item">
+        <img src="https://cdn2.foodviva.com/static-content/food-images/curry-recipes/kaju-curry/kaju-curry.jpg" alt="" height="150px">
+        <div class="details">
+            <h2>Kaju kari</h2>
+            <p>creamy and spicy curry with kaju</p>
+        <span class="price"><i class="fa-solid fa-indian-rupee-sign"></i>200</span>
+        </div>
+
+        </div>
+    </section>
+    <script src="https://kit.fontawesome.com/4163921464.js" crossorigin="anonymous"></script>
+</body>
+</html>

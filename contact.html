@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+header {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+}
+
+.contact-container, .contact-info, .services, .social-media {
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #d43f3f;
+}
+
+.contact-info p, .services ul {
+    text-align: left;
+    padding: 0 20px;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services li {
+    padding: 5px 0;
+    font-size: 16px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: #ff4d4d;
+    font-size: 18px;
+}
+
+.social-media a:hover {
+    color: #d43f3f;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+</style>
+<body>
+    <div class="navbar">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfLa2X3zXtN8OjQ5uWn7XVJpAj3ZazuOsa4A&s" alt="" class="logo">
+        <div class="nav-links">
+    <a class="nav" href="index.html">Home</a>
+    <a class="nav"href="menu.html">menu</a>
+    <a class="nav"href="register.html">register</a>
+    <a class="nav"href="contact.html">contact</a>
+    </div>
+    </div>
+    
+
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <section class="contact-container">
+        <h2>Get in Touch</h2>
+        <p>If you have any questions, feel free to reach out to us!</p>
+
+        <form action="#" method="post">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <section class="contact-info">
+        <h2>Our Contact Details</h2>
+        <p>📞 <strong>Phone:</strong> +1 234 567 890</p>
+        <p>📧 <strong>Email:</strong> support@zomato.com</p>
+        <p>📍 <strong>Address:</strong> 123 Food Street, Zomato City</p>
+    </section>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>🍔 Online Food Delivery</li>
+            <li>🏪 Restaurant Listings</li>
+            <li>📊 Customer Reviews & Ratings</li>
+            <li>🥡 Takeaway Services</li>
+            <li>🎫 Exclusive Offers & Discounts</li>
+        </ul>
+    </section>
+
+    <section class="social-media">
+        <h2>Follow Us</h2>
+        <p>Stay connected with us on social media!</p>
+        <a href="https://www.instagram.com/zomato" target="_blank">📸 Instagram</a>
+        <a href="https://www.facebook.com/zomato" target="_blank">📘 Facebook</a>
+        <a href="https://twitter.com/zomato" target="_blank">🐦 Twitter</a>
+    </section>
+
+    <footer>
+        <p>© 2025 Zomato. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

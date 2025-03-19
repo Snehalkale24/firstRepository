@@ -1,0 +1,25 @@
+.navbar{
+    background-color: grey;
+    padding:5px 20px;
+    border-bottom: 0 2px 10px 2px black;
+    box-shadow: 0 3px 0 7px rgb(179, 176, 176);
+    position: sticky;
+    top:0;
+    
+}
+.nav{
+    margin: 50px;
+    text-decoration:none;
+    font-size: 20px;
+    color:black;
+    margin-right:80px;
+
+}
+.nav:hover{
+    font-size: 30px;
+    color:rgb(65, 4, 220)
+}
+.logo{
+    height:50px;
+    border-radius: 50%;
+}
